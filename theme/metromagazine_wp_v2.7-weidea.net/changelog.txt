@@ -1,0 +1,73 @@
+==================================
+========== Changelog =============
+==================================
+
+== Version 2.7 == December 16, 2014
+	* Updated Subscribers Counter Widget
+		framework/widgets/widget_subscribers_count.php
+		
+== Version 2.6 == May 7, 2014
+	*Fixed Shortcodes
+		framework/shortcodes		
+		
+== Version 2.5 == October 29, 2013
+	*Fixed markup
+		page-onesidebar.php
+		page-contact.php
+		
+== Version 2.4 == August 6, 2013
+	* Fixed Lightbox image size
+		style.css
+	
+== Version 2.3 == August 5, 2013
+	* Updated Lightbox for WordPress 3.6
+		- js/lightbox.js
+		- css/lightbox.css
+		- Added lightbox icons in images folder (next, prev, loading, close).		
+		
+== Version 2.2 == July 23, 2013
+	* Fixed Twitter error
+		- framework/widgets/widget_latest_tweets.php
+		- framework/widgets/widget_subscribers_count.php
+		
+== Version 2.1 == June 22, 2013
+	* Fixed Tag order in homepage sections
+		- framework/funcrions.php
+	
+== Version 2.0 == June 18, 2013
+	* Updated Twitter API in Latest tweets widget
+		- framework/widgets/widget_latest_tweets.php
+	* Updated Twitter API in Social Subscribers counter widget
+		- framework/widgets/widget_subscribers_count.php
+	* Added new folder lib in framework/widgets
+
+
+== Version 1.6 == June 14, 2013
+	* Fixed single sidebar page layout
+	* Fixed carousel widget layout
+		- style.css
+
+== Version 1.5 == June 03, 2013
+	* Fixed single post image align class
+		- css/common.css
+	* Fixed Number of Posts parameter in Recent Posts Widget
+		- framework/widgets/widget_recent_posts.php
+	* Fixed Top posts style
+		- style.css
+
+== Version 1.0.3 == February 15, 2013
+	* Fixed header date localization
+		- header.php
+	
+	* Fixed missing string in translation file
+		-languages/default.po
+
+== Version 1.0.2 == February 04, 2013
+	* Fixed some style issues
+	-style.css
+
+== Version 1.0.1 == February 1, 2013
+	* Fixed layout issues
+		-style.css   
+		-includes/feat-posts.php  
+		-js/custom.js
