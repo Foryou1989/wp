@@ -1253,32 +1253,6 @@ a:hover{
 	overflow: hidden;
 }
 
-#content .entry-social{
-	margin-bottom: 20px;	
-	padding: 10px;
-	font-size: 1px;
-	background: #FFFFFF;
-}
-
-#content .entry-social .fb{
-	margin-right: 35px;
-	font-size: 1px;		
-}
-
-#content .entry-social .twitter{	
-	width: 90px;	
-}  
-
-#content .entry-social .linkedin{
-	margin-right: 25px;
-}
-
-#content .entry-social .pinterest{	
-	width: 90px;	
-	margin-right: 25px;
-	vertical-align: top !important;
-}
-
 .entry-footer .entry-tags{
 	overflow: hidden;
 }
@@ -2956,10 +2930,6 @@ ul.sp-list li{
 		width: 460px;
 	}
 	
-	#content .entry-social{
-		display: none;
-	}
-	
 	.archive .attachment-wt-cat-img{
 		width: 220px !important;
 		height: 125px !important;
@@ -3195,11 +3165,7 @@ ul.sp-list li{
 	#content .related-posts ul li{
 		width: 270px;
 	}
-	
-	#content .entry-social{
-		display: none;
-	}
-	
+		
 	.one-half{
 		width: 270px !important;
 		margin-right: 0 !important;
