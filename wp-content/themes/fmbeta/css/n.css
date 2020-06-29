@@ -1,0 +1,133 @@
+﻿@media only screen and (min-width: 900px) {
+/*页面主体*/
+#container-page{
+width: 1210px;
+margin: 0 auto;
+}	
+	
+.box{
+	float:left;width: 800px;padding:0px 45px;background:#fff;
+	overflow:hidden;
+}
+
+/*文章列表*/
+.list {
+	width: 100%;
+	padding-bottom: 35px;
+	margin-top: 40px;
+	overflow: hidden;
+	border-bottom: 2px dashed #f1f1f1
+}
+.list:first-child{margin-top:0px;}
+.list:last-child{border-bottom:none;}
+
+.titleimg {
+	display: block;
+	float: left;
+	width:auto;
+	height: auto;
+	overflow: hidden;
+	
+}
+.titleimg img {
+ display:block;
+  width: 253px;height:auto;background: url(../images/xxx.gif);background-size: 250px auto;border-radius:3px;
+
+}
+.titleimg a:first-child {margin-left:0px;}
+.mecctitle {
+	width: 507px;
+	float: right;line-height:21px;
+}
+.mecctitle a {
+	font-size: 20px;
+}
+.mucctitle {
+	width: 99%;
+	margin: 0 auto;line-height:21px;
+}
+.mucctitle a {
+	font-size: 20px;
+}
+time{
+	color: #a2a2a2;
+	margin-top: 20px;
+	font-style: normal;
+	font-size:16px;
+	float:left;margin-left:40px;
+}
+.tebe{margin-left:0px;}
+.zaiyao {
+	float: right;
+	width: 502px;
+	line-height: 35px;
+	margin-top: 10px;
+	font-size:16px;
+	margin-right:5px;
+}
+.zuiyao {
+	width: 100%;
+	line-height: 35px;
+	margin-top: 10px;
+	clear: both;float: right;
+	font-size:16px;
+}
+
+.kuda{width:100%;}
+.kudai{width:100%;margin-top:25px;}
+.kudai a{float:left;margin-left:15px;display:block;}
+.kudat{margin-left:0px;}
+.kudap{display:none;}
+}
+
+@media only screen and (max-width: 900px) {
+.list {
+	width: 100%;
+	margin:0 auto;
+	height: auto;
+	border-top: 1px solid #f1f1f1;
+	padding-top:28px;
+	padding-bottom:25px;overflow:hidden;
+}
+
+.list:first-child{border-top:0px;}
+.titleimg {
+	width: 28%;
+	display: block;
+	float: left;
+	margin-right: 5%;border-radius:2px;margin-left:6%;
+}
+.titleimg img {
+	width: 100%;
+}
+.mecctitle {
+	width: 55%;
+	float: right;margin-right:6%;margin-top: -5px;line-height: 25px;
+}
+.mecctitle a {
+	font-weight: normal;
+}
+.mucctitle{width:88%;margin:0 auto;line-height: 25px;}
+
+.mucctitle a {
+	font-weight: normal;
+}
+
+time {
+    width:55%;
+	margin-right:6%;
+	color: #a2a2a2;
+	margin-top: 10px;
+	font-style: normal;
+	float:right;font-size:15px;
+}
+.tebe{float:left;margin-left:6%;}
+
+.list p{display:none;}
+
+.kuda{width:88%;margin-left:6%;}
+.kudai{width:88%;margin-left:6%;margin-top:15px;}
+.kudai a{width:32%;float:left;margin-left:2%;}
+.kudai a:first-child {margin-left:0px;}
+.kudat{float:left;margin-left:6%;margin-top:12px;}
+}

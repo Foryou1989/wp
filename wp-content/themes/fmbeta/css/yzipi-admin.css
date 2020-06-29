@@ -1,0 +1,36 @@
+﻿.yzipi_admin_h2{margin-top:30px;}
+.yzipi_admin_h2 a{color:#333333;text-decoration: none;}
+.yzipi_admin_input{width: 600px;
+	padding: 12px 0px;
+	text-indent: 15px;
+	border: 1px solid #dbdbdb;
+	border-radius: 3px;
+	font-size: 16px;
+	margin-top:10px;
+	color: #949494;
+	display: inline-block;
+	font-family: "Microsoft Yahei", "冬青黑体简体中文 w3";}
+.yzipi_admin_submit{
+	width: 120px;
+	line-height: 30px;
+	border-radius: 3px;
+	border: none;
+	color: #fff;
+	text-align: center;
+	background: #d8643f;
+	cursor: pointer;
+	margin-top: 10px;
+	font-weight:100;
+	font-family: "Microsoft Yahei", "冬青黑体简体中文 w3";}
+.yzipi_admin_a_submit{
+	width: 120px;
+	line-height: 30px;
+	border-radius: 3px;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	background: #d8643f;
+	margin-top: 20px;
+	font-family: "Microsoft Yahei", "冬青黑体简体中文 w3";
+	display:block;float:left;margin-right:30px;}	
+.yzipi_admin_a_submit:hover{color: #fff;}	

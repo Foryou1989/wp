@@ -1,0 +1,60 @@
+﻿
+/*
+Theme Name: 柚段子
+Theme URI: http://www.yzipi.com
+Version: 1.0+
+Author: "卖砖头的小女孩"
+Author URI: http://www.yzipi.com
+
+Description:柚段子主题是一款极简设计的响应式主题，主题可适用博客，媒体，企业类网站建设。主题会持续升级，所以请大家多关于柚段子。
+
+-------------------------------------------------------------- */
+
+@charset "utf-8";
+@import "css/yzipi-pc.css"; 
+@import "css/n.css"; 
+@import "css/yzipi-phone.css"; 
+@import "css/bbs.css"; 
+html {
+-webkit-text-size-adjust: none;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+ol, ul {
+	list-style: none;
+}
+img {
+	border: 0;
+	height: auto;
+	width: auto;
+}
+
+body {
+	font-family: "Microsoft Yahei", "冬青黑体简体中文 w3";
+	font-size: 17px;
+	letter-spacing: 0.8px;
+	position:relative;
+	letter-spacing:1px;
+}
+a {
+	color: #000;
+	font-size: 17px;
+	text-decoration: none;
+	transition: color 0.3s;letter-spacing:1px;
+}
+a:hover {
+	color: #d6623d;
+}
+::selection{background:#d6623d;color:#fff;}
+img{display:block;}
+.clearfix:after{
+    display:block;
+    clear:both;
+    content:"";
+    visibility:hidden; 
+    height:0;
+} 
+.clearfix{zoom:1}
+
