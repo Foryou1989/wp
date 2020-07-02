@@ -64,7 +64,7 @@ $keywords = trim(strip_tags($keywords));
     <?php if(function_exists('wp_nav_menu')) wp_nav_menu(array('container' => false, 'items_wrap' => '%3$s', 'theme_location' => 'top-menu')); ?>     
     </ul>
     <form id="search-form" method="get" class="search" action="<?php echo esc_url( home_url( '/' ) ); ?>" >
-    <input class="text" type="text" name="s" placeholder="请输入..." value="<?php the_search_query(); ?>">   
+    <input class="text" type="text" name="s" value="<?php the_search_query(); ?>">   
     <input class="butto" value="搜索" type="submit">
     </form>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/index.js"></script>
